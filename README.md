@@ -13,6 +13,8 @@ Welcome to **SegmentedButton,** a UI/UX framework for allowing users to quickly 
 
 ## Features
 
+- [x] Allows for an unlimited number of buttons
+- [x] Buttons exist local to their scope and don't require any delegate conformance. 
 - [x] Super performant
 - [x] Pre-built UI (shadows, rounded corners, etc)
 - [x] Dark/Light mode support out of the box.
