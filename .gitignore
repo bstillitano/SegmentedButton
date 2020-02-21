@@ -1,0 +1,8 @@
+.DS_Store
+Pods/
+build/
+vendor/bundle/
+*.xcuserstate
+*.xcuserstate
+*.xcbkptlist
+*.xcuserdata
