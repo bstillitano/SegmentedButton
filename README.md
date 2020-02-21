@@ -1,5 +1,5 @@
 <p align="center">
-  <img align="center">![](screenshot.png)</img>
+  <img align="center" src="screenshot.png" />
 </p>
 
 # SegmentedButton
