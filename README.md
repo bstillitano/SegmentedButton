@@ -1,3 +1,7 @@
+<p align="center">
+  <img align="center">![](screenshot.png)</img>
+</p>
+
 # SegmentedButton
 
 Welcome to **SegmentedButton,** a UI/UX framework for allowing users to quickly and easily insert a segmented button of sorts that replicates the split style button seen in the Apple Maps app on iOS 13.
@@ -6,10 +10,6 @@ Welcome to **SegmentedButton,** a UI/UX framework for allowing users to quickly 
 [![CocoaPods Compatible](https://img.shields.io/badge/pod-v0.1.0-blue)](https://img.shields.io/badge/pod-v0.1.0-blue)
 [![Twitter](https://img.shields.io/badge/twitter-bstillita-1da1f2)](https://twitter.com/bstillita)
 ![Platform](https://img.shields.io/badge/platform-ios-success)
-
-## Screenshots
-
-![](screenshot.gif)
 
 ## Features
 
