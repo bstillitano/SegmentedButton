@@ -10,12 +10,12 @@ import Foundation
 import UIKit
 import SnapKit
 
-class SplitButton: UIView {
+public class SplitButton: UIView {
     //UI Elements
-    var containerView: UIView = UIView()
+    public var containerView: UIView = UIView()
  
     //Data
-    var buttons: [UIButton] = [] {
+    public var buttons: [UIButton] = [] {
         didSet {
             self.setupUI()
         }
@@ -25,7 +25,7 @@ class SplitButton: UIView {
         fatalError("init(coder:) has not been implemented")
     }
 
-    convenience init(buttons: [UIButton]) {
+    public convenience init(buttons: [UIButton]) {
         self.init(frame: .zero)
         self.setData(buttons: buttons)
     }
@@ -43,7 +43,7 @@ class SplitButton: UIView {
         self.buttons = buttons
     }
 
-    func setupUI() {
+    private func setupUI() {
         //Remove Subviews
         for view: UIView in self.subviews {
             view.removeFromSuperview()
@@ -106,7 +106,7 @@ class SplitButton: UIView {
         }
     }
     
-    override func layoutSubviews() {
+    override public func layoutSubviews() {
         super.layoutSubviews()
         
         //Add Rounded Corners and Shadows
