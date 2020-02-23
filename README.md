@@ -28,13 +28,15 @@ class ViewController: UIViewController{
   
   func foo() {
     //Setup Location Button
-    locationButton.tintColor = .buttonTintColor
+    let locationButton: UIButton = UIButton()
+    locationButton.tintColor = .white
     locationButton.setImage(UIImage(named: "ic_location")?.withRenderingMode(.alwaysTemplate), for: .normal)
     locationButton.addTarget(self, action: #selector(zoomMapToUserLocation), for: .touchUpInside)
     locationButton.contentEdgeInsets = UIEdgeInsets(top: 10.0, left: 10.0, bottom: 10.0, right: 10.0)
 
     //Setup Settings Button
-    settingsButton.tintColor = .buttonTintColor
+    let settingsButton: UIButton = UIButton()
+    settingsButton.tintColor = .white
     settingsButton.setImage(UIImage(named: "settingsIcon")?.withRenderingMode(.alwaysTemplate), for: .normal)
     settingsButton.addTarget(self, action: #selector(openSettings), for: .touchUpInside)
     settingsButton.contentEdgeInsets = UIEdgeInsets(top: 10.0, left: 10.0, bottom: 10.0, right: 10.0)
